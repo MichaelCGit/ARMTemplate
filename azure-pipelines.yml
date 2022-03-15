@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'Test123'
     location: 'Switzerland North'
     templateLocation: 'Linked artifact'
-    csmFile: 'https://github.com/MichaelCGit/ARMTemplate/LogAnalytics_Automation.json
+    csmFile: 'https://github.com/MichaelCGit/ARMTemplate/LogAnalytics_Automation.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
