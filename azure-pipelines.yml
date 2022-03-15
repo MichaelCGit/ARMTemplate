@@ -18,8 +18,9 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'Test123'
     location: 'Switzerland North'
-    templateLocation: 'Linked artifact'
-    csmFile: 'https://github.com/MichaelCGit/ARMTemplate/LogAnalytics_Automation.json'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/MichaelCGit/ARMTemplate/main/armtemplate/armtemplate.json?token=GHSAT0AAAAAABSQ3YU5OIFXWTPBXIOJIWD2YRQSV7A'
+    overrideParameters: '-projectName armtemplate'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
