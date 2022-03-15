@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'Test123'
     location: 'Switzerland North'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/MichaelCGit/ARMTemplate/main/armtemplate/armtemplate.json?token=GHSAT0AAAAAABSQ3YU5OIFXWTPBXIOJIWD2YRQSV7A'
+    csmFileLink: 'https://raw.githubusercontent.com/MichaelCGit/ARMTemplate/main/armtemplate/armtemplate.json?token=GHSAT0AAAAAABSQ3YU45HFTKTYEPQ3OBLGEYRQS7YA'
     overrideParameters: '-projectName armtemplate'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
